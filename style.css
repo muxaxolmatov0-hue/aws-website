@@ -15,6 +15,10 @@ header {
   background-size: cover;
   background-color: rgb(8, 8, 61);
 }
+
+main {
+  margin-top: 160%;
+}
 .container {
   width: 100%;
   max-width: 1350px;
@@ -140,16 +144,142 @@ nav a:hover {
 
 .img-hero img {
   width: 100%;
+  margin-top: -52px;
 }
 
 .more-icon {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .more-icon img {
   width: 100%;
+}
+
+.all-card {
+  margin-top: -900px;
+}
+
+.polo {
+  margin-top: -70px;
+}
+
+.end {
+  margin-top: -50px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 52px;
+}
+
+.mini-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 52px;
+}
+
+.main-text {
+  /* margin-top: 35px; */
+  margin: 0 auto;
+  /* padding: 0px 12px; */
+}
+.main-text li {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  color: #ffffff;
+  border: 3px solid #e03f3f;
+  border-radius: 49px;
+  padding: 5px 6px;
+  max-width: 161px;
+  text-align: center;
+}
+
+.main-text h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 73px;
+  line-height: 92px;
+  margin-top: 0px;
+}
+
+.main-text p {
+  color: #9ba2b2;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.14px;
+  max-width: 375px;
+  margin-top: 8px;
+}
+
+.main-text span {
+  display: inline-block;
+  margin-top: 50px;
+  color: #e03f3f;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 5%;
+}
+.main-img img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.adval {
+  background-color: #011b40;
+  max-width: 1050px;
+  border-radius: 10px;
+  margin: 52px auto;
+  padding: 40px;
+}
+.jadval {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jadval h2 {
+  color: #e3e7ee;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31.2px;
+  letter-spacing: -0.14px;
+}
+
+.jadval span {
+  color: #007afc;
+  font-size: 35px;
+}
+
+.paragrf p {
+  color: #9ba2b2;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.14px;
+  margin-top: 15px;
+}
+
+@media (max-width: 1100px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .mini-card {
+    flex-direction: column-reverse;
+  }
+
+  .all-card {
+    margin-top: -100px;
+  }
 }
 
 @media (max-width: 868px) {
@@ -159,5 +289,9 @@ nav a:hover {
   }
   .menu-bar i {
     display: block;
+  }
+
+  .string h1 {
+    font-size: 40px;
   }
 }
