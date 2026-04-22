@@ -320,7 +320,7 @@ nav a:hover {
 .all-foter {
   display: flex;
   align-items: center;
-  /* gap: 163px; */
+  gap: 155px;
   /* margin-top: 200px; */
   /* justify-content: space-between; */
 }
@@ -413,6 +413,7 @@ nav a:hover {
 
   .all-links {
     flex-direction: column;
+    margin-left: -155px;
     /* margin-top: 15px; */
   }
 }
